@@ -6,7 +6,7 @@
 /*   By: graja <graja@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/11 14:11:12 by graja             #+#    #+#             */
-/*   Updated: 2021/12/12 13:54:16 by graja            ###   ########.fr       */
+/*   Updated: 2021/12/12 14:35:08 by graja            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define CONTACT_CLASS_H
 
 # include <string>
+# include <iostream>
 
 class Contact
 {
