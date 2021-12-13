@@ -6,7 +6,7 @@
 /*   By: graja <graja@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/11 14:11:12 by graja             #+#    #+#             */
-/*   Updated: 2021/12/12 14:35:08 by graja            ###   ########.fr       */
+/*   Updated: 2021/12/13 12:05:30 by graja            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,26 @@
 
 class Contact
 {
+	private:
+		std::string	firstname;
+		std::string	lastname;
+		std::string	nickname;
+		std::string	phonenbr;
+		std::string	secret;
+
 	public:
-		std::string	fname;
-		std::string	lname;
-		std::string	nname;
-		std::string	pnmbr;
-		std::string	secrt;
+		void	set_firstname(std::string name);
+		void	set_lastname(std::string name);
+		void	set_nickname(std::string name);
+		void	set_phonenbr(std::string nbr);
+		void	set_secret(std::string data);
+
+		std::string	get_firstname(void);
+		std::string	get_lastname(void);
+		std::string	get_nickname(void);
+		std::string	get_phonenbr(void);
+		std::string	get_secret(void);
+
 };
 
 #endif
