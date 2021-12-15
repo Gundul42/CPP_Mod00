@@ -6,7 +6,7 @@
 /*   By: graja <graja@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/14 11:41:09 by graja             #+#    #+#             */
-/*   Updated: 2021/12/14 16:58:49 by graja            ###   ########.fr       */
+/*   Updated: 2021/12/14 17:57:11 by graja            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -121,7 +121,7 @@ bool	Account::makeWithdrawal(int withdrawal)
 	}
 	timestamp();
 	std::cout << "index:" << _accountIndex;
-	std::cout << ";p_amount:" << _amount << ";withdrawal: refused";
+	std::cout << ";p_amount:" << _amount << ";withdrawal:refused";
 	std::cout << std::endl;
 	return (false);
 }
